@@ -1,0 +1,28 @@
+header{
+    background-color:green;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    
+  }
+  nav{
+    margin-top:15px;
+  }
+  h2{
+    color:green;
+    font-weight:bold;
+  }
+  footer{
+    background-color:green;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+  }
+  p{
+    font-size:medium;
+    font-weight:bold;
+  }
+  ul{
+    font-weight:bold;
+  }
