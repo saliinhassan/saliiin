@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #container{
+            background-color: pink;
+            border:3px dashed red ;
+            display:flex;
+            display: inline-flex;
+            flex-wrap: wrap;
+
+        }
+        #container div{
+            background-color: whitesmoke;
+            border: 3px solid yellow;
+            text-align: center;
+            border-width:3px ;
+            border-style: solid;
+            border-color:black;
+            font-weight: bold;
+            padding: 12px;
+            margin: 10px;
+            flex-basis: 40px;
+
+        
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div style="order:-1 ;flex-grow:1 ;">1</div>
+        <div style=" flex-shrink: 2;">2</div>
+        <div style=" align-self: flex-end;">3</div>
+        <div style="order:-4 ;">4</div>
+        <div style="order:-5;">5</div>
+    </div>
+</body>
+</html>
